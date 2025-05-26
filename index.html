@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swayam Patwa | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Orbitron:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" async>
+</head>
+
+<body>
+    <!-- Custom Cursor Elements -->
+    <div class="custom-cursor-core"></div>
+    <div class="custom-cursor-aura"></div>
+    <div class="blob-container">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <header>
+        <nav>
+            <a href="#hero" class="logo animated-item">Swayam Patwa</a>
+            <ul class="nav-links">
+                <li class="animated-item" style="animation-delay: 0.05s;"><a href="#hero" class="nav-link">Home</a></li>
+                <li class="animated-item" style="animation-delay: 0.1s;"><a href="#about" class="nav-link">About</a></li>
+                <li class="animated-item" style="animation-delay: 0.15s;"><a href="#education" class="nav-link">Education</a></li>
+                <li class="animated-item" style="animation-delay: 0.2s;"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="animated-item" style="animation-delay: 0.25s;"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="animated-item" style="animation-delay: 0.3s;"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-button" aria-label="Toggle theme">
+                <i class="fas fa-sun"></i>
+            </button>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="animated-section">
+            <div class="hero-main-content">
+                <div class="hero-text-content">
+                    <h1 class="animated-text-reveal">Swayam Patwa</h1>
+                    <p id="roleText" class="animated-text-reveal" style="animation-delay: 0.5s;">
+                        <span class="role-span">Full-Stack Developer</span>
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="cta-button animated-item" style="animation-delay: 1s;">View My
+                            Work</a>
+                        <a href="cv.pdf" download="Swayam_Patwa_CV.pdf" class="cta-button-outline animated-item"
+                            style="animation-delay: 1.2s;">Download CV <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <img src="swayam.jpeg" alt="Swayam Patwa" class="hero-img animated-item"
+                        style="animation-delay: 0.8s;">
+                </div>
+            </div>
+            <div class="hero-shapes">
+                <div class="shape shape1"></div>
+                <div class="shape shape2"></div>
+                <div class="shape shape3"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="animated-section">
+            <h2>About Me</h2>
+            <div class="about-content-wrapper">
+                <div class="about-main">
+                    <div class="about-image animated-item">
+                        <img src="swayam.jpeg" alt="Swayam Patwa" loading="lazy">
+                    </div>
+                    <div class="about-text animated-item" style="animation-delay: 0.2s;">
+                        <h3 class="animated-text-reveal">Hi, I'm Swayam!</h3>
+                        <p class="animated-text-reveal" style="animation-delay: 0.4s;">
+                            A passionate and results-driven innovator with a strong focus on full-stack development and
+                            emerging technologies. I thrive on tackling complex challenges and transforming ideas into
+                            impactful, user-centric solutions. My experience spans various modern tech stacks, and I'm
+                            always eager to learn and explore new frontiers.
+                        </p>
+                        <div class="skills-list animated-item" style="animation-delay: 0.6s;">
+                            <h4>Key Skills:</h4>
+                            <span>JavaScript</span> <span>React</span> <span>Node.js</span> <span>Python</span>
+                            <span>C++</span> <span>AI Tools</span> <span>WordPress</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats-hackathons animated-item" style="animation-delay: 0.5s;">
+                    <h4>My Journey & Achievements</h4>
+                    <div class="stats-container animated-item" style="animation-delay: 0.8s;">
+                        <div class="stat-box">
+                            <h3>6+</h3>
+                            <p>Hackathons</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>10+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>4</h3>
+                            <p>Key Wins</p>
+                        </div>
+                    </div>
+
+                    <div class="hackathon-highlights animated-item" style="animation-delay: 1s;">
+                        <h5>Notable Hackathon Successes:</h5>
+                        <ul>
+                            <li><i class="fas fa-trophy"></i> SIH 2024 - Finalist</li>
+                            <li><i class="fas fa-award"></i> Codactive 3.0 - Winner</li>
+                            <li><i class="fas fa-medal"></i> Hackwave - Finalist</li>
+                            <li><i class="fas fa-star"></i> Kriyata 3.0 - Finalist</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="animated-section">
+            <h2>My Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item animated-item">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology - Computer Science</h3>
+                        <p class="institution">Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, India</p>
+                        <p class="date">2022 - 2026</p>
+                        <p class="details">Relevant coursework: Data Structures, Algorithms, Web Development, AI. CGPA:
+                            8.05</p>
+                    </div>
+                </div>
+                <div class="timeline-item animated-item" style="animation-delay: 0.2s;">
+                    <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Certificate (Class 12)</h3>
+                        <p class="institution">Sri Raghukul Vidya Peeth, Civil Line, Gonda</p>
+                        <p class="date">2020 - 2021</p>
+                        <p class="details">Stream: Science (PCM). </p>
+                    </div>
+                </div>
+                <div class="timeline-item animated-item" style="animation-delay: 0.4s;">
+                    <div class="timeline-icon"><i class="fas fa-book-reader"></i></div>
+                    <div class="timeline-content">
+                        <h3>Secondary School Certificate (Class 10)</h3>
+                        <p class="institution">Sri Raghukul Vidya Peeth, Civil Line, Gonda</p>
+                        <p class="date">2018 - 2019</p>
+                        <p class="details"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="animated-section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animated-item">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?cs=srgb&dl=pexels-pixabay-301920.jpg&fm=jpg" alt="E-Learning Platform" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://vission-landing-page.vercel.app/" target="_blank" class="project-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="https://github.com/swayam4751s/E-Learning" target="_blank" class="project-link"><i
+                                    class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Learning Platform</h3>
+                        <p>An innovative e-learning platform offering interactive courses, expert-led sessions, and
+                            personalized learning paths to empower users with skills and knowledge anytime, anywhere.
+                        </p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                    <span class="card-glow-effect"></span>
+                </div>
+                <div class="project-card animated-item" style="animation-delay: 0.2s;">
+                    <div class="project-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMVm-oj5rV-nJd6GXFPiNjkNkmSWDjfmmfkA&s" alt="Health Care Project" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank" class="project-link"><i class="fas fa-eye"></i> Live Demo</a>
+                            <a href="https://github.com/swayam4751s/Healthcare" target="_blank" class="project-link"><i
+                                    class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Health Care Solution</h3>
+                        <p>A comprehensive healthcare platform offering personalized solutions, seamless access to medical services, and tools for managing health and wellness effectively.
+                        </p>
+                        <div class="project-tags">
+                            <span>Frontend</span><span>Backend</span><span>AI/ML</span>
+                        </div>
+                    </div>
+                    <span class="card-glow-effect"></span>
+                </div>
+                <div class="project-card animated-item" style="animation-delay: 0.4s;">
+                    <div class="project-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2twGDpWHNu1EnNgoP-74Yj0wLe3KjJhssJw&s" alt="Chatbot Project" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://chatgpt2-sage-one.vercel.app/" target="_blank" class="project-link"><i
+                                    class="fas fa-eye"></i> Live Demo</a>
+                            <a href="https://github.com/swayam4751s/chatgpt" target="_blank" class="project-link"><i
+                                    class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Intelligent Chatbot</h3>
+                        <p>An intelligent chatbot delivering instant support, personalized assistance, and engaging
+                            conversations to enhance user experiences across various platforms using Gemini API.
+                        </p>
+                        <div class="project-tags">
+                            <span>MERN</span><span>Gemini API</span><span>UX/UI</span>
+                        </div>
+                    </div>
+                    <span class="card-glow-effect"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="animated-section">
+            <h2>What Others Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animated-item">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>"Swayam is an incredibly talented and dedicated individual. His problem-solving skills were
+                        crucial to our hackathon success."</p>
+                    <h4>- Tech Colleague</h4>
+                    <span>Professional Network</span>
+                    <span class="card-glow-effect"></span>
+                </div>
+                <div class="testimonial-card animated-item" style="animation-delay: 0.2s;">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>"Working with Swayam on Codactive 3.0 was a fantastic experience. He's a great team player and a
+                        coding powerhouse."</p>
+                    <h4>- Team Vision 3.0</h4>
+                    <span>Hackathon Teammates</span>
+                    <span class="card-glow-effect"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="animated-section">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-form-wrapper animated-item" style="animation-delay: 0s;">
+                    <form id="contactForm" action="https://formspree.io/f/myzwalzv" method="POST">
+                        <div class="form-group animated-item" style="animation-delay: 0.1s;">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group animated-item" style="animation-delay: 0.2s;">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="_replyto" required>
+                        </div>
+                        <div class="form-group animated-item" style="animation-delay: 0.3s;">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New Contact from Swayam Patwa Portfolio!">
+                        <input type="text" name="_gotcha" style="display:none"> <!-- Honeypot -->
+                        <button type="submit" class="cta-button animated-item" style="animation-delay: 0.4s;">Send
+                            Message</button>
+                        <p id="formStatus"></p>
+                    </form>
+                </div>
+                <div class="contact-details-wrapper animated-item" style="animation-delay: 0.5s;">
+                    <h3>Contact Information</h3>
+                    <div class="contact-detail-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p><a href="tel:+919555363996">+91 95553 63996</a></p>
+                    </div>
+                    <div class="contact-detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:swayampatwa17@gmail.com">swayampatwa17@gmail.com</a></p>
+                    </div>
+                    <div class="contact-detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Shastri Nagar, Jabalpur,<br>Madhya Pradesh, India</p>
+                    </div>
+                    <div class="social-links-contact">
+                        <h4>Connect with me:</h4>
+                        <a href="https://in.linkedin.com/in/swayam-patwa-793490256" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/swayam4751s" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/___swymm/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="animated-section">
+        <p>© <span id="currentYear"></span> Swayam Patwa. All rights reserved. | Designed with <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <!-- Chatbot HTML -->
+    <div id="chatbotContainer" class="chatbot-container">
+        <button id="chatbotToggle" class="chatbot-toggle-button" aria-label="Toggle Chatbot">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div id="chatbotWindow" class="chatbot-window">
+            <div class="chatbot-header">
+                Swayambot
+                <button id="closeChatbot" class="chatbot-close-button-window" aria-label="Close Chatbot">×</button>
+            </div>
+            <div id="chatbotMessages" class="chatbot-messages">
+            </div>
+            <div class="chatbot-input-area">
+                <input type="text" id="chatbotInput" placeholder="Ask something...">
+                <button id="chatbotSend" aria-label="Send message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
